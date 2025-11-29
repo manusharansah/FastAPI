@@ -10,7 +10,7 @@ class Patient(BaseModel):
     name:Annotated[str,Field(...,description='Name of the patient')]
     city:Annotated[str,Field(...,description='City where the patient lives')]
     age:Annotated[int,Field(...,gt=0,lt=120,description='Current age of the person')]
-    gender:Annotated[Literal['male','female','other'],Field(...,description='Age/Sex of the patient')]
+    gender:Annotated[Literal['male','female','other'],Field(...,description='Gender/Sex of the patient')]
     height:Annotated[float,Field(...,gt=0,description='Height of the patient in meters(m)')]
     weight:Annotated[float,Field(...,gt=0,description='Weighr of the patient in kilograms(kg)')]
 
@@ -81,7 +81,7 @@ def sorted_data(sort_by:str = Query(...,description='Sort data on the basis of h
 def create_pat(pat:Patient):
     data = load_data()
     if pat.id in data:
-        raise HTTPException(status_code=401,detail='Patient already exists.')
+        raise HTTPException(status_code=409,detail='Patient already exists.')
     data[pat.id] = pat.model_dump(exclude={'id'})
     save_data(data)
     return JSONResponse(status_code=201,content={'message':'Patient created succssfully'})
@@ -91,7 +91,7 @@ class updatePatient(BaseModel):
     name:Annotated[Optional[str],Field(description='Name of the patient')] = None
     city:Annotated[Optional[str],Field(description='City where the patient lives')] = None
     age:Annotated[Optional[int],Field(gt=0,lt=120,description='Current age of the person')] = None
-    gender:Annotated[Optional[Literal['male','female','other']],Field(description='Age/Sex of the patient')] = None
+    gender:Annotated[Optional[Literal['male','female','other']],Field(description='Gender/Sex of the patient')] = None
     height:Annotated[Optional[float],Field(gt=0,description='Height of the patient in meters(m)')]= None
     weight:Annotated[Optional[float],Field(gt=0,description='Weighr of the patient in kilograms(kg)')] = None
 
