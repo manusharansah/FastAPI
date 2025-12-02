@@ -1,0 +1,5 @@
+fastapi==0.123.3
+uvicorn==0.32.0
+streamlit==1.51.0
+pandas==2.3.3
+pydantic==2.12.5
