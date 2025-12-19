@@ -64,8 +64,18 @@ The notes and scripts in this repository represent real learning — written, te
 - Exposed ports 8000 (FastAPI) and 8501 (Streamlit).
 - Executed commands.sh to launch both backend and frontend.
 - Ensures a consistent, reproducible environment for development and deployment. 
-- Docker pull command ( run via terminal )
-> docker pull manusharansah/insurance_premium_predictor:latest
+#### Docker pull command ( run via terminal )
+```bash
+docker pull manusharansah/insurance_premium_predictor:latest
+```
+#### Docker pull command ( run via docker desktop/ terminal )
+```bash
+docker run -d \                                            
+-p 8000:8000 \
+-p 8501:8501 \
+--name new_insurance_app \
+manusharansah/insurance_premium_predictor:latest
+```
 ## ☁️ AWS Deployment 
 - Gained understanding of AWS services such as EC2, ECS, ECR, and Elastic Beanstalk.
 - Learned cloud deployment workflows, container management, and CI/CD concepts.
@@ -82,11 +92,9 @@ The notes and scripts in this repository represent real learning — written, te
 
 ## 🧠 Learning Resources
 
-- FastAPI for Machine Learning| CampusX <a href="https://www.youtube.com/watch?v=WJKsPchji0Q&list=PLKnIA16_RmvZ41tjbKB2ZnwchfniNsMuQ" target="_blank">&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" width="20"/>
-</a>
-
-- ChatGPT <a href="https://chat.openai.com/" target="_blank">&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ChatGPT-Logo.svg/2048px-ChatGPT-Logo.svg.png" width="16" alt="ChatGPT Logo"/></a> &nbsp;- for guidance, explanations, and code clarity
-- Gemini <a href="https://gemini.google.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/2048px-Google_Gemini_icon_2025.svg.png" width="16" alt="Gemini Logo"/></a> - for guidance, explanations, and code clarity
+- FastAPI for Machine Learning| CampusX <a href="https://www.youtube.com/watch?v=WJKsPchji0Q&list=PLKnIA16_RmvZ41tjbKB2ZnwchfniNsMuQ" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" width="20"/></a>
+- ChatGPT <a href="https://chat.openai.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ChatGPT-Logo.svg/2048px-ChatGPT-Logo.svg.png" width="16" alt="ChatGPT Logo"/></a> - for guidance,learning, explanations, and code 
+- Gemini <a href="https://gemini.google.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/2048px-Google_Gemini_icon_2025.svg.png" width="16" alt="Gemini Logo"/></a> - for guidance,learning, explanations, and code 
 
 ---
 > &nbsp;
