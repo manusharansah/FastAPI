@@ -22,13 +22,14 @@ The notes and scripts in this repository represent real learning — written, te
 
 **Languages & Tools Used:**
 
-💻 **Programming:** Python <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python Logo" width="18"/>    
-🤖 **Machine Learning:** scikit-learn 🤖, NumPy 🔢, Pandas 🐼, Pickle 🥒
-⚡ **Backend Framework:** FastAPI <img src="https://cdn.worldvectorlogo.com/logos/fastapi.svg" alt="FastAPI Logo" width="20"/>
-🖥️ **Frontend:** Streamlit 🖌️
-📦 **Libraries:** Pydantic 🗂️, uvicorn 🚀
-🐳 **Containerization:** Docker <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker Logo" width="20"/>
-🧮 **Environments:** Jupyter Notebook <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" width="18"/> , VS Code <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" width="18"/>
+💻 **Programming:** Python  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python Logo" width="18"/>  
+🤖 **Machine Learning:** scikit-learn 🤖, NumPy 🔢, Pandas 🐼, Pickle 🥒  
+⚡ **Backend Framework:** FastAPI  <img src="https://cdn.worldvectorlogo.com/logos/fastapi.svg" alt="FastAPI Logo" width="20"/>  
+🖥️ **Frontend:** Streamlit 🖌️  
+📦 **Libraries:** Pydantic 🗂️, uvicorn 🚀  
+🐳 **Containerization:** Docker  <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker Logo" width="20"/>   
+🧮 **Environments:** Jupyter Notebook  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" width="18"/> ,  VS Code  <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" width="18"/>
+
 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) ![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -80,9 +81,11 @@ The notes and scripts in this repository represent real learning — written, te
 
 ## 🧠 Learning Resources
 
-- FastAPI for Machine Learning| CampusX ( https://www.youtube.com/watch?v=WJKsPchji0Q&list=PLKnIA16_RmvZ41tjbKB2ZnwchfniNsMuQ )
-- ChatGPT ( https://chatgpt.com/ ) - for guidance, explanations, and code clarity
-- Gemini ( https://google.gemini.com/ ) - for guidance, explanations, and code clarity
+- FastAPI for Machine Learning| CampusX <a href="https://www.youtube.com/watch?v=WJKsPchji0Q&list=PLKnIA16_RmvZ41tjbKB2ZnwchfniNsMuQ" target="_blank">&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" width="20"/>
+</a>
+
+- ChatGPT <a href="https://chat.openai.com/" target="_blank">&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ChatGPT-Logo.svg/2048px-ChatGPT-Logo.svg.png" width="16" alt="ChatGPT Logo"/></a> &nbsp;- for guidance, explanations, and code clarity
+- Gemini <a href="https://gemini.google.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/2048px-Google_Gemini_icon_2025.svg.png" width="16" alt="Gemini Logo"/></a> - for guidance, explanations, and code clarity
 
 ---
 > &nbsp;
