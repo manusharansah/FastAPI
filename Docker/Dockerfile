@@ -25,3 +25,15 @@ EXPOSE 8000
 
 #command
 CMD ["./commands.sh"]
+
+#to build the docker image, run the following command in the terminal
+
+# docker pull manusharansah/insurance_premium_predictor:latest
+
+#docker run -d \                                            
+#-p 8000:8000 \
+#-p 8501:8501 \
+#--name new_insurance_app \
+#manusharansah/insurance_premium_predictor:latest
+
+#remove comment before running the above commands

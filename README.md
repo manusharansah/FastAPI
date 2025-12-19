@@ -64,7 +64,8 @@ The notes and scripts in this repository represent real learning — written, te
 - Exposed ports 8000 (FastAPI) and 8501 (Streamlit).
 - Executed commands.sh to launch both backend and frontend.
 - Ensures a consistent, reproducible environment for development and deployment. 
-
+- Docker pull command ( run via terminal )
+> docker pull manusharansah/insurance_premium_predictor:latest
 ## ☁️ AWS Deployment 
 - Gained understanding of AWS services such as EC2, ECS, ECR, and Elastic Beanstalk.
 - Learned cloud deployment workflows, container management, and CI/CD concepts.
