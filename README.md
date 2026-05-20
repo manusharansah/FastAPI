@@ -1,4 +1,4 @@
-# <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/FastAPI_logo.svg/2560px-FastAPI_logo.svg.png" alt="FastAPI" width="400"/> 
+# <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI" width="400"/> 
 
  *A practical learning journey through FastAPI, exploring API fundamentals, modern backend patterns, and Docker-based workflows.*
 
